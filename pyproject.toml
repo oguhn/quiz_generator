@@ -1,0 +1,12 @@
+[project]
+name = "quiz-gpt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain==0.3.14",
+    "langchain-community>=0.3.14",
+    "openai==1.59.3",
+    "streamlit==1.32.2",
+]
