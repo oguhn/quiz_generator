@@ -79,6 +79,7 @@ def trigger_quiz(topic, quiz_level):
 st.title("🧠 Quiz Generator")
 
 with st.sidebar:
+    st.markdown("https://github.com/oguhn/quiz_generator/blob/main/app.py")
     st.header("Settings")
     api_key = st.text_input("OpenAI API 키를 입력하세요", type="password", key="api_key")
     if st.button("확인"):
