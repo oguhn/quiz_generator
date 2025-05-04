@@ -88,7 +88,6 @@ with st.sidebar:
             os.environ["OPENAI_API_KEY"] = api_key
         else:
             st.error("API 키를 입력해주세요.")
-    # st.markdown("https://github.com/oguhn/py_langchain_explore/blob/main/pages/DocumentGPT.py")
 
     if not api_key or not st.session_state.get("api_key_valid", False):
         st.error("OpenAI API 키를 입력하고 확인 버튼을 눌러주세요.")
